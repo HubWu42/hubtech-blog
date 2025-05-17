@@ -140,3 +140,4 @@ outputs/
 
 uv.lock
 *.env
+public/
