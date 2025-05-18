@@ -1,0 +1,75 @@
+.search-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 8px;
+  border-radius: 6px;
+  color: #aaa;
+  margin: 0 8px;
+  transition: background 0.2s, color 0.2s;
+  &:hover {
+    background: #232326;
+    color: #fff;
+  }
+  .search-icon {
+    display: block;
+  }
+}
+
+
+.search-modal {
+  display: none; // 默认隐藏
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+}
+
+.search-modal.show {
+  display: block;
+}
+
+.search-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(20, 20, 20, 0.6);
+  backdrop-filter: blur(6px);
+}
+
+.search-modal-box {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: transparent;
+  width: 600px;
+  max-width: 90vw;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-modal-form {
+  display: flex;
+  align-items: center;
+  background: #18181b;
+  border-radius: 18px;
+  border: 2px solid #fff;
+  width: 100%;
+  padding: 12px 24px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.25);
+}
+
+.search-modal-icon {
+  margin-right: 12px;
+  color: #888;
+}
+
+.search-modal-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 1.3rem;
+  width: 100%;
+}

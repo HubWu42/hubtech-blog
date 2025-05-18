@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="{{ .class }}" width="{{ .width }}" height="{{ .height }}" viewBox="0 0 14 14" stroke-width="1" stroke="currentColor" fill="none">
+  <title>{{ .title }}</title>
+  <g>
+    <circle cx="6" cy="6" r="4" stroke-linecap="round" stroke-linejoin="round"></circle>
+    <line x1="9.5" y1="9.5" x2="13" y2="13" stroke-linecap="round" stroke-linejoin="round"></line>
+  </g>
+</svg>
